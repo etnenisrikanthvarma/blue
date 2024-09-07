@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        *{
+            margin: 0;
+        }
+         .c1{
+            display: flex;
+            height: 90px;
+           
+
+        }
+        .i1{
+            flex-basis: 10%;
+            padding-left: 10PX;
+            
+            padding-top: 8px;
+
+        }
+        .i3{
+            flex-basis: 70%;
+        }
+        .i2,.i5,.i4{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            padding-right: 10px;
+            padding-left: 0px;
+           
+        }
+        .d{
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            border: 2px solid;
+            width: 90px;
+        }
+        .parent{
+            padding-top: 23px;
+            padding-right: 10px;
+        }
+        .child{
+            display: none;
+            
+            
+        }
+        .parent:hover> .child{
+            display:block;
+            overflow: visible;
+            position: relative;
+            z-index: 1000;
+        }
+        .i2,.i4{
+            padding: 12px;
+        }
+        .i5{
+
+        }
+        .i2:hover,.i5:hover,.i4:hover{
+            color: rgb(106, 174, 174);
+        } 
+
+
+        .z1{
+            position: relative;
+            height: 89vh;
+            /* width: 100vw; */
+            background-image: url("https://img.freepik.com/free-photo/one-person-typing-laptop-night-generated-by-ai_188544-27872.jpg" );
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .z2{
+            /* width: inherit; */
+            height: 100%;
+            background: linear-gradient( cyan ,#0483a3);
+            opacity: 0.3;
+            background-repeat: no-repeat;
+           
+        }
+        .text11{
+            font-size: 60px;
+            position: relative;
+            bottom: 200px;
+            color: white;
+            font-weight: 600;
+            padding: 10px;
+        }
+        .dots{
+            font-size: 100px;
+            position: relative;
+            bottom: 50px;
+            padding: 10px;
+        }
+
+
+
+    .paren1{
+        display: flex;
+        padding-top: 20px;
+    }
+    .chi1{
+        flex-basis: 50%;
+        text-align: justify;
+        font-size: 20px;
+        padding: 23px;
+        
+    }
+    .chi2{
+       
+        padding: 20px;
+    }
+    .voi{
+        height: 330px;
+        padding: 40px;
+        width: 500px;
+        border-radius: 50px;
+        
+    }
+    .club1{
+        font-size: 40px;
+        padding: 10px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        padding-bottom: 10px;
+        padding-bottom: 30px;
+    }
+    .clu{
+        font-size: 39px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-bottom: 10px;
+        padding-bottom: 30px;
+        text-align: start;
+
+    }
+    .para{
+        text-indent: 30px;
+        line-height: 29px;
+        padding: 10px;
+    }
+    
+    .st3{
+        display: flex;
+        gap: 10px;
+       
+    }
+    
+    .im1,.im2{
+        height: 160px;
+        width: 290px;
+    }
+    .st4{
+        display: flex;
+        gap: 10px;
+        overflow: hidden;
+    }
+    .im3{
+        height: 160px;
+        width: 190px;
+    }
+    .st5{
+        display: flex;
+        gap: 10px;
+    }
+    .im6{
+        height: 150px;
+        width: 290px;
+    }
+    .bil{
+        font-size: 60px;
+        text-align: center;
+        padding: 50px;
+    }
+    .cbt{
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+        bottom: 24px;
+    }
+    .de{
+        display: flex;
+        gap: 10px;
+        overflow: hidden;
+    }
+    .im{
+        height: 300px;
+        width: 400px;
+
+    }
+    .im:hover{
+        transform: scale(1.02);
+    }
+    .ss{
+        font-size: 70px;
+        text-align: center;
+        font-weight: 550;
+        position: relative;
+        top: 150px;
+
+    }
+    .sss{
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    top:150px ;
+    
+
+    }
+    .dd{
+        background-color: rgb(255, 247, 238);
+        margin-top: 30px;
+        height: 500px;
+    }
+    .but{
+        position: relative;
+        top: 200px;
+        left: 500px;
+        height: 40px;
+        width: 200px;
+        background:linear-gradient(cyan ,#0483a3);
+        border-radius: 5px;
+        
+    }
+    .foo{
+        background:linear-gradient(cyan ,#0483a3);
+        height: 90px;
+        display: flex;
+    }
+    .f1{
+        flex-basis: 35%;
+        display: flex;
+        align-items: center;
+        padding: 16Px;
+        color: white;
+        font-size: 20px;
+
+
+    }
+    .f2{
+        display: flex;
+        flex-basis: 75%;
+        display: flex;
+        
+        align-items: center;
+        justify-content: flex-end;
+        padding: 20px;
+
+    }
+    .aa{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        
+    }
+    .aa:hover{
+        color: black;
+    }
+    </style>
+</head>
+<body>
+
+
+    <main class="c1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX97V-Ui5D0jcNIN6La6g1xVO50G5SKF7RDQ&s" alt="" height="70" class="i1">
+        <p class="i3"></p>
+        <a href="" class="i2">HOME</a>
+        <a href="" class="i4">ABOUT</a>
+        <a href="" class="i5">
+            <div class="parent">CLUBS <i class="fa-solid fa-chevron-down"></i>
+                <div class="child">
+                    <a href="" class="d">option1</a>
+                    <a href="" class="d">option2</a>
+                    <a href="" class="d">option3</a>
+                    <a href="" class="d">option 4</a>
+                </div>
+            </div>
+        </a>
+    </main> 
+
+    <div class="z1">
+        <div class="z2">
+            <div class="z11"></div>
+        </div>
+        <div class="text11">
+            Discover The Clubs
+            <section class="dots">...</section>
+        </div>
+
+    </div>
+    
+
+    <div class="paren1">
+        <div class="chi1">
+            <div class="club1">Club Culture at CBIT</div>
+<div class="para">Welcome to the pulsating heart of extracurricular life at CBIT, where students dive into a plethora of enriching experiences through our diverse range of clubs. At CBIT, we firmly believe that learning extends far beyond the confines of the classroom. Our clubs provide an avenue for students to delve deeper into their passions, foster meaningful connections, and hone essential life skills that transcend academic boundaries.</div>
+        </div>
+        <div class="chi2">
+            <img src="https://images.unsplash.com/photo-1465847899084-d164df4dedc6?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHBsYXlpbmclMjB2aW9saW58ZW58MHx8MHx8fDA%3D" alt="" class="voi">
+        </div>
+    </div>
+
+    <div class="paren1">
+        <div class="chi2"><img src="https://images.shiksha.com/mediadata/images/articles/1583323440phpuoZR6M.jpeg" alt="" class="voi"></div>
+        <div class="chi1"><div class="club1">Discovering Your Passions</div>
+        <div class="para">With an extensive selection of clubs spanning various interests, there’s something for everyone at CBIT. Whether you’re drawn to the adrenaline rush of sports, the intricacies of technology, the artistry of performing arts, or the altruism of community service, our clubs offer a platform to explore, experiment, and expand your horizons. From coding clubs to cultural societies, each club is a vibrant microcosm of creativity, innovation, and camaraderie.</div></div>
+    </div>
+
+    <div class="paren1">
+        <div class="chi1"> 
+            <div class="clu">Fostering a Culture of Excellence</div>
+            <div class="para">At the core of our club culture lies a commitment to excellence. Through workshops, competitions, and hands-on projects, our clubs empower students to push boundaries, think critically, and strive for greatness. Under the guidance of dedicated mentors and industry professionals, members have the opportunity to sharpen their skills, gain valuable insights, and prepare for the challenges of tomorrow’s world.To impart futuristic Technical Education, advance knowledge, research and instill high pattern of discipline that will best serve the nation and the world in the contemporary century.</div>
+        </div>
+        <div class="st2">
+           <div class="st3">
+                <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlDaJdLqzzQP_soatSUXK8O5nFPoqdWhrOCA&s" alt=""  class="im1"></div>
+                <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOa8cJj1gVH5j3i2xattidSbK4C7FefMYdBg&s" alt="" class="im2"></div>
+           </div>
+            <div class="st4">
+                 <div class="im3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpFrn8lprFMQ2nBfPe7jVVAWVsNVHDM7XPgg&s" alt="" class="im3"></div>
+               <div class="im4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj7-SGnTEcpbHL63-NQD8BEfH0ZjxpzheC2w&s" alt="" class="im3"></div>
+                <div class="im5"><img src="https://pbs.twimg.com/media/ES50PVZU8AABeYM.jpg" alt="" class="im3"></div> 
+            </div>
+            <div class="st5">
+                <div class="im6"><img src="https://www.cbit.ac.in//wp-content/uploads/2019/01/cl-image-5.jpg" alt="" class="im6"></div>
+                <div class="im7"><img src="https://www.cbit.ac.in//wp-content/uploads/2019/01/cl-image-8.jpg" alt="" class="im6"></div>
+            </div>
+        </div>
+    </div>
+    <div class="bil">
+        Building Lifelong Connections
+    </div>
+    <div class="cbt">CBIT clubs are more than just activities; they’re communities fostering lasting friendships and a sense of belonging.</div>
+    <div class="de">
+        <div><img src="https://childbraininjurytrust.org.uk/wp-content/uploads/2019/10/HWFPHT-Hikaru-Funnell-Child-Brain-Injury-Trust-AGloHa-17-10-2019-116.jpg" alt="" class="im"></div>
+        <div><img src="https://images.collegedunia.com/public/college_data/images/campusimage/1644474584DSC_2313-min-scaled.jpg" alt="" class="im"></div>
+        <div><img src="https://allegiance-educare.in/storage/uploads/colleges/1644474604IMG_1620-min-scaled.jpg" alt="" class="im"></div>
+    </div>
+
+    <div class="dd">
+        <div class="ss">Join the Club</div>
+        <div class="sss">Ready for an unforgettable journey of growth and adventure? Join CBIT’s vibrant clubs to explore your passions, embrace new challenges, and create lasting memories in our supportive community.</div>
+        <button class="but">ENROLL NOW</button>
+    </div>
+    <footer class="foo">
+        <div class="f1">@2024CBIT CLUBS - NEHA</div>
+        <div class="f2">
+            <div><a href="" class="aa">HOME</a></div>
+            <div><a href="" class="aa">ABOUT</a></div>
+        </div>
+
+    </footer>
+</body>
+</html>
